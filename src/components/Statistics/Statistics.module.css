@@ -1,0 +1,31 @@
+.statistics {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 250px;
+  height: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: white;
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: normal;
+  color: gray;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.stat_list {
+  display: flex;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: calc(100% / 5);
+  height: 50px;
+}

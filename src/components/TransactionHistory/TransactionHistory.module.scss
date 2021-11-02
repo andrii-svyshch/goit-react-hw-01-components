@@ -1,0 +1,33 @@
+.transaction_history {
+  margin-right: auto;
+  margin-left: auto;
+  border-spacing: 0;
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+thead > tr {
+  background-color: aqua;
+  height: 40px;
+}
+
+.row {
+  background-color: #fff;
+  height: 40px;
+}
+
+th {
+  width: 150px;
+  padding: 0;
+  border: solid 1px gray;
+}
+
+td {
+  padding: 0;
+  border: solid 1px gray;
+}
+
+.even_row {
+  composes: row;
+  background-color: lightgray;
+}
